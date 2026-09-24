@@ -31,8 +31,8 @@ class Solution:
 
 def main():
     n = int(input("Enter an integer : ")) #user input
-    sol = Solution() #Object to invoke the method
-    sol.mirror_number(n)
+    solution = Solution() #Object to invoke the method
+    solution.mirror_number(n)
 
 if __name__ == "__main__":
     main()
